@@ -1,5 +1,14 @@
 <template>
-    <div>
-        电影模块下的正在热映
-    </div>
+  <Mainplaying/>
 </template>
+<script>
+import Mainplaying from "../../components/mainplaying/mainplaying";
+export default {
+    components: {
+        Mainplaying
+    },
+    // created(){
+    //   MainComingSoon
+    // }
+};
+</script>

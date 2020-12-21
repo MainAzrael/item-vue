@@ -1,5 +1,11 @@
 <template>
-    <div>
-        电影模块下的即将上映
-    </div>
+  <maincomingsoon/>
 </template>
+<script>
+import maincomingsoon from "../../components/mainplaying/mainComingSoon"
+export default {
+  components:{
+    maincomingsoon
+  }
+}
+</script>
